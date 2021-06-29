@@ -1,0 +1,38 @@
+#+TITLE: Skyenet
+#+AUTHOR: Skye Jonke
+* Flex
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: row
+:END:
+** About Me
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: card default-size
+:END:
+My name is Skye Jonke, and I'm a university student majoring in computer
+science. My hobbies include coding, writing fiction, and watching anime. I'm
+particularly interested in creating and contributing to Open Source code. I
+specialize in C++, but I dabble in higher level programming languages like
+python.
+*** Details
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: details smaller-size
+:END:
+Pronouns: She/Her
+
+School: University of Maryland Baltimore County
+** Contact
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: card smaller-size
+:END:
+- Email
+ - Personal
+   [[mailto:skye@skyenet.online][skye@skyenet.online]]
+ - Gmail
+   [[mailto:skyejonke@gmail.com][skyejonke@gmail.com]]
+ - School
+    [[mailto:skyejonke@umbc.edu][skyejonke@umbc.edu]]
+
+- Twitter
+  [[https://twitter.com/BiriBiriAnimus][@BiriBiriAnimus]]
+- Curious Cat
+  [[https://curiouscat.qa/pinktransgirl][@pinktransgirl]]

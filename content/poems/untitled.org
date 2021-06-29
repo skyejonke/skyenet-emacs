@@ -1,0 +1,22 @@
+#+TITLE: Untitled
+#+INDEX: Untitled (1)
+* [Untitled]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: card
+:END:
+#+BEGIN_VERSE
+Decent? Virtuous?
+Not just now,
+putting my aptitude to the test.
+So self-absorbed as to be negligent:
+the devil.
+"To think you'd even play a natural born killer."
+We belonged to completely different worlds.
+I'd lost count of how many times I'd asked the question.
+"What do you want?"
+#+END_VERSE
+** Note
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: details smaller-size
+:END:
+Created by combining quotes from Bakemonogatari Volume 2, by NiosiOisiN

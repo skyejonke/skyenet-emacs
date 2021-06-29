@@ -1,0 +1,153 @@
+@import './colors.scss';
+
+body {
+    margin: 0;
+    font-size: $font-size;
+    font-family: $font;
+    color: $fg-color;
+    background-color: $bg-color;
+}
+
+p {
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    h2 {
+        display: none;
+    }
+
+}
+
+.card {
+    display: flex;
+    padding: 1vw;
+    border-radius: 2vh;
+    margin: 0.5vh 4vw 0.5vh 4vw;
+    background-color: $card-bg-color;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex: 3;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    align-items: flex-start;
+    h1, h2, h3, h4 {
+        padding-bottom: 1vh;
+        padding-top: 1vh;
+        margin-top: 0;
+        flex: 1;
+        text-align: center;
+        flex-shrink:0;
+        flex-basis: 100%;
+        border-bottom: 1px solid $fg-color;
+    }
+    div {
+        flex: 5;
+        padding: 1em;
+    }
+}
+.details {
+    padding: 1em;
+    flex-direction: column;
+    background-color: $details-bg-color;
+    border-radius: 2vh;
+    h4 {
+      padding-top: 0em;
+        flex: 2;
+        flex-grow: 2;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+    }
+    div {
+        flex: 3;
+    }
+}
+
+#postamble {
+  visibility: hidden;
+}
+
+.default-size {
+    flex: 5;
+}
+.smaller-size {
+    flex: 2 !important;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 1vh 20px 1vh 20px;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.topnav {
+  background-image: linear-gradient(to right, $card-bg-color, $fg-accent-color 25%);
+  overflow: hidden;
+  height: $top-size;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: $fg-color;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  // font-family: var(--main-emphasis-font-family);
+  font-weight: lighter;
+  font-size: $top-text-size;
+  height: $top-size;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: $bg-color;
+  color: $fg-color;
+}
+
+.topnav .icon:hover {
+  background-color: #00000000;
+  color: black;
+
+}
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  color: $fg-color;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  position: relative;
+  top: .5vh;
+  display: none;
+}
+
+.logo {
+  position: relative;
+  bottom: .7vh;
+  padding-right: .5vw;
+  height: $top-text-size + 2vh;
+  float: left;
+}
+
+.logotxt {
+  float: left;
+  text-align: center;
+  font-size: 8vh;
+  font-family: var(--main-emphasis-font-family);
+  font-weight: lighter;
+  margin: 1vh;
+}
+
+#content {
+  padding: 1em;
+}
+
+.title {
+  display: none;
+}
