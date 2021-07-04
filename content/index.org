@@ -25,14 +25,42 @@ School: University of Maryland Baltimore County
 :HTML_CONTAINER_CLASS: card smaller-size
 :END:
 - Email
- - Personal
-   [[mailto:skye@skyenet.online][skye@skyenet.online]]
- - Gmail
-   [[mailto:skyejonke@gmail.com][skyejonke@gmail.com]]
- - School
-    [[mailto:skyejonke@umbc.edu][skyejonke@umbc.edu]]
+  - Personal
+    [[mailto:skye@skyenet.online][skye@skyenet.online]]
+  - Gmail
+    [[mailto:skyejonke@gmail.com][skyejonke@gmail.com]]
+  - School
+     [[mailto:skyejonke@umbc.edu][skyejonke@umbc.edu]]
 
 - Twitter
   [[https://twitter.com/BiriBiriAnimus][@BiriBiriAnimus]]
 - Curious Cat
   [[https://curiouscat.qa/pinktransgirl][@pinktransgirl]]
+
+* Flex
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: row
+:END:
+** Experience
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: card default-size
+:END:
+- Summer Laptop Repair for BCPS
+- [[file:projects.org][Personal Projects]]
+- UMD DIT Service Desk
+*** Skills
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: details
+:END:
+- Customer Service
+- Debian Servers
+- C/C++
+- Python
+- Java
+** Personal Interests
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: card default-size
+:END:
+- Anime and Manga
+- [[file:poems/index.org][Writing]]
+- LGBTQIA+ Rights

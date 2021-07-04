@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-size: 1.17em;
+  font-family: sans-serif;
+  color: #0D0009;
+  background-color: #8c8c8c; }
+
+p {
+  min-width: 8em;
+  margin-block-start: .5em;
+  margin-block-end: .5em; }
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .row h2 {
+    display: none; }
+
+.card {
+  display: flex;
+  padding: 1vw;
+  border-radius: 2vh;
+  margin: 0.5vh 4vw 0.5vh 4vw;
+  background-color: #ffb3cb;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex: 3;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  align-items: flex-start; }
+  .card h1, .card h2, .card h3, .card h4 {
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    margin-top: 0;
+    flex: 1;
+    text-align: center;
+    flex-shrink: 0;
+    flex-basis: 100%;
+    border-bottom: 1px solid #0D0009; }
+  .card div {
+    flex: 5;
+    padding: 1em; }
+
+.details {
+  padding: 1em;
+  flex-direction: column;
+  background-color: #ff7da6;
+  border-radius: 2vh; }
+  .details h4 {
+    padding-top: 0em;
+    flex: 2;
+    flex-grow: 2;
+    margin-block-start: 0em;
+    margin-block-end: 0em; }
+  .details div {
+    flex: 3; }
+
+#postamble {
+  visibility: hidden; }
+
+.default-size {
+  flex: 5; }
+
+.smaller-size {
+  flex: 2 !important; }
+
+.navbar {
+  list-style-type: none;
+  margin: 1vh 20px 1vh 20px;
+  padding: 0;
+  overflow: hidden;
+  text-align: center; }
+
+.topnav {
+  background-image: linear-gradient(to right, #ffb3cb, #cacaca 25%);
+  overflow: hidden;
+  height: 8vh; }
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #0D0009;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 4vh;
+  height: 8vh; }
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #8c8c8c;
+  color: #0D0009; }
+
+.topnav .icon:hover {
+  background-color: #00000000;
+  color: black; }
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  color: #0D0009; }
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  position: relative;
+  top: .5vh;
+  display: none; }
+
+.logo {
+  position: relative;
+  bottom: .7vh;
+  padding-right: .5vw;
+  height: 6vh;
+  float: left; }
+
+.logotxt {
+  float: left;
+  text-align: center;
+  font-size: 8vh;
+  font-family: var(--main-emphasis-font-family);
+  font-weight: lighter;
+  margin: 1vh; }
+
+#content {
+  padding: 1em; }
+
+.title {
+  display: none; }
+
+/*# sourceMappingURL=base.css.map */

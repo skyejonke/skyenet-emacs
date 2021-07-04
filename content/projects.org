@@ -1,0 +1,29 @@
+- #+TITLE: Projects
+
+* Flex
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: row
+:END:
+** [[https://github.com/skyeneet/shleepbot][Shleep Bot]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: card
+:END:
+A Discord Bot for sending silly anime gifs, and other things!
+** [[https://github.com/skyejonke/yapp][yapp]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: card
+:END:
+[[file:images/yapp.png][yapp.png]]
+A simple podcast player for the command line, written during the 2019
+Technica Hackathon
+** [[https://gitlab.com/14606a/comet-puncher][Comet Puncher]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: card
+:END:
+The code for a vex robot that team 14606A made for the Vex Worlds Turning
+Point Competition.
+** [[https://github.com/skyejonke/her][Her]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: card
+:END:
+- A tiny visual novel about being a lesbian trans woman.
