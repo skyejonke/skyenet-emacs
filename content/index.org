@@ -31,7 +31,6 @@ School: University of Maryland Baltimore County
     [[mailto:skyejonke@gmail.com][skyejonke@gmail.com]]
   - School
      [[mailto:skyejonke@umbc.edu][skyejonke@umbc.edu]]
-
 - Twitter
   [[https://twitter.com/BiriBiriAnimus][@BiriBiriAnimus]]
 - Curious Cat
